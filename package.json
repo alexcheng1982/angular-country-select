@@ -2,7 +2,7 @@
   "name": "angular-country-select",
   "version": "1.0.0",
   "description": "AngularJS country select",
-  "main": "angular-country-select.js",
+  "main": "dist/angular-country-select.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
