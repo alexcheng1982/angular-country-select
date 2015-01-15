@@ -18,3 +18,8 @@ Then use directive `country-select`.
 ```
 
 See `example.html` for a simple example.
+
+
+### Countries data
+
+Countries JSON data is inlined into JavaScript file during Grunt build, so no extra download is required in runtime.
