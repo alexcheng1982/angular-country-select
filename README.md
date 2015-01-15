@@ -1,7 +1,7 @@
 Country select for AngularJS
 ======================
 
-A simple AngularJS directive to create country select. It uses Twitter [select2](http://select2.github.io/select2/) to create auto-complete country select. Country data is from [mledoze/countries](https://github.com/mledoze/countries).
+A simple AngularJS directive to create country select. It uses [select2](http://select2.github.io/select2/) to create auto-complete country select. Country data is from [mledoze/countries](https://github.com/mledoze/countries).
 
 ### Usage
 
