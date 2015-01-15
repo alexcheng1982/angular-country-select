@@ -17,7 +17,7 @@ module.exports = function(grunt) {
             pattern: 'var data = [];',
             replacement: 'var data = ' + JSON.stringify(_.map(grunt.file.readJSON('./data/countries.json'), function(country) {
               return {
-                id: country.cca2,
+                id: country.cca3,
                 text: country.name.common
               };
             })) + ';'

@@ -14,8 +14,10 @@ angular.module('countrySelectExample', ['angular-country-select']);
 Then use directive `country-select`.
 
 ```html
-<input country-select>
+<input country-select data-ng-model="country">
 ```
+
+Value of selected country is the [ISO 3166-1 alpha-3](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) code, e.g. `CHN`, `USA`.
 
 See `example.html` for a simple example.
 
