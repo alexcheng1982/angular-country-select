@@ -17,7 +17,7 @@ Then use directive `country-select`.
 <input country-select data-ng-model="country">
 ```
 
-Value of selected country is the [ISO 3166-1 alpha-3](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) code, e.g. `CHN`, `USA`.
+Value of selected country is the [ISO 3166-1 alpha-2](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) code, e.g. `CN`, `US`.
 
 See `example.html` for a simple example.
 
