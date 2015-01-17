@@ -6,7 +6,7 @@
     "Fu Cheng <alexcheng1982@gmail.com>"
   ],
   "description": "Country select for AngularJS",
-  "main": "angular-country-select.js",
+  "main": "dist/angular-country-select.js",
   "keywords": [
     "country",
     "select"
