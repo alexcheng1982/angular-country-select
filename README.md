@@ -3,6 +3,10 @@ Country select for AngularJS
 
 A simple AngularJS directive to create country select. It uses [select2](http://select2.github.io/select2/) to create auto-complete country select. Country data is from [mledoze/countries](https://github.com/mledoze/countries).
 
+### Install
+
+Install `angular-country-select` using Bower `bower install angular-country-select`.
+
 ### Usage
 
 Make your Angular module depend on module `angular-country-select`.
