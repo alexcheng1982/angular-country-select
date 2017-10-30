@@ -1,6 +1,6 @@
 {
   "name": "angular-country-select",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AngularJS country select",
   "main": "dist/angular-country-select.js",
   "scripts": {

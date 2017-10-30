@@ -8,6 +8,11 @@ angular.module('angular-country-select', [])
         elem.select2({
           data: data
         });
+        scope.$watch(attrs.ngModel, function(newValue, oldValue) {
+          if (newValue) {
+            elem.select2('val', newValue);
+          }
+        });
       }
     };
   }]);
