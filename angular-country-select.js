@@ -10,7 +10,7 @@ angular.module('angular-country-select', [])
         });
         scope.$watch(attrs.ngModel, function(newValue, oldValue) {
           if (newValue) {
-            elem.select2('val', newValue);
+            $(elem).val(newValue).trigger("change");
           }
         });
       }
